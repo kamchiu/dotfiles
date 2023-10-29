@@ -1,0 +1,17 @@
+
+[user]
+	name = kamchiu
+	email = gumchiulau@gmail.com
+[credential]
+	helper = osxkeychain
+[alias]
+	co = checkout
+	overview = log --oneline --no-merges --since='2 weeks'
+	graph = log --graph --all --decorate --stat --date=iso
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[http "https://github.com"]
+	proxy = socks5://127.0.0.1:7891
+
+[pull]
+	rebase = true
